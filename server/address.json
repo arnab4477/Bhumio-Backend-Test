@@ -16,7 +16,7 @@
       "Major": "Maths",
       "address": {
         "state": "PB",
-        "zip": "140119 ",
+        "zip": "140119",
         "address_1": "56, Netaji Road",
         "address_2": "Gurudwara",
         "city": "Abiana"
@@ -27,7 +27,7 @@
       "Major": "Bio",
       "address": {
         "state": "PB",
-        "zip": "160129 ",
+        "zip": "160129",
         "address_1": "34, Netaji Road",
         "address_2": "Gurudwara",
         "city": "Badheri"
@@ -39,7 +39,7 @@
       "Major": "Chem",
       "address": {
         "state": "PB",
-        "zip": "161110 ",
+        "zip": "161110",
         "address_1": "34, Netaji Road",
         "address_2": "Gurudwara",
         "city": "Badheri"
@@ -50,7 +50,7 @@
       "Major": "Maths",
       "address": {
         "state": "PB",
-        "zip": "140120 ",
+        "zip": "140120",
         "address_1": "516, Netaji Road",
         "address_2": "Gurudwara",
         "city": "Abiana"
@@ -61,7 +61,7 @@
       "Major": "Maths",
       "address": {
         "state": "MH",
-        "zip": "431101 ",
+        "zip": "431101",
         "address_1": "Vir Savarkar Marg",
         "address_2": "Gaon Devi",
         "city": "Mumbai"
