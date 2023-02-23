@@ -17,3 +17,21 @@ Combine the queries like this -> `/students?query1=value&query2=value... and so 
 
 - `/students?major=bio&state=pb`
 - `/students?name=rakesh&state=pb&major=maths`
+
+## Developed feature to create PDF from student's data and save it in the backend
+
+the new endpoint /newpdf takes the student's details from a POST request and creates a PDF from the provided details. Some minor validations have been applied for this API and here is how it works.
+
+- The request body should contain the student's name, state, city, major and zip details in JSON form. if any of the detail is missing, the program will return an error
+- The format of the name in the request body must be as such "firstName lastName". The first and the last name both must be provided and be separated with a space. An example of this is `{"name": "John Smith"}`. This is because taking only first name can cause issues with duplicate names. Although this can also cause the same issues if the number of students grows large, in that case an unique id can be used to differentiate the PDFs, however this is out of the scope for this project
+- This is an example of a full request body:
+
+  `{
+    "name": "Rakesh Patil",
+    "state": "PB",
+    "city": "Abiana",
+    "major": "Maths",
+    "zip": "773939"
+}`
+
+- All the PDFs will be stored in the ./pdfs/ directory

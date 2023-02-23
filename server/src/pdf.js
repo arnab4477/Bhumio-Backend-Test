@@ -1,6 +1,10 @@
 import json2html from 'node-json2html';
 import * as pdf from 'html-pdf';
 
+/**
+ * Function to create HTML for the student's details froma a
+ * JavaScript object
+ */
 const convertToHtml = (name, state, city, major, zip) => {
   const data = { name, city, major, zip, state };
 
@@ -19,6 +23,10 @@ const convertToHtml = (name, state, city, major, zip) => {
   return html;
 };
 
+/**
+ *
+ * Promise based function to generate PDF from an html
+ */
 const convertToPdf = (name, state, city, major, zip, output) => {
   const html = convertToHtml(name, state, city, major, zip);
 
