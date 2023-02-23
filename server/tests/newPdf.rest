@@ -1,0 +1,10 @@
+POST http://localhost:8000/newpdf
+Content-Type: application/json
+
+{
+    "name": "Arnab Saha",
+    "state": "WB",
+    "city": "Kolkata",
+    "major": "English",
+    "zip": "123456"
+}
